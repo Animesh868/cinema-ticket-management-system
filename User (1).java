@@ -5,13 +5,13 @@ class username_id
     public void usernamepassword()
     {
         Scanner input = new Scanner(System.in);
-        String str1 = "Animesh123", str2 = "animesh123";
+        String str1, str2;
         System.out.println("Enter your user name");
         str1 = input.nextLine();
         System.out.println("Enter your password");
         str2 = input.nextLine();
         do {
-            if (str1.equals("aa") && str2.equals("12345")) {
+            if (str1.equals("animesh") && str2.equals("12345")) {
                 return;
             } else {
                 System.out.println("Your username and password is wrong so try again!");
