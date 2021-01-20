@@ -1,5 +1,7 @@
 # cinema-ticket-management-system
 Project Name -> Cinema ticket management system
+login id->aa
+Password->12345
 Language used -> JAVA core Features ->
 Objective -> The main objective of project is to implement the maximun possible concept of Object Oriented Programming(OOP's).
 
