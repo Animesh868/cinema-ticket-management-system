@@ -26,7 +26,7 @@ class username_id
 class user extends username_id {
     static Scanner input = new Scanner(System.in);
     static String name;
-    static String[] movielist = {"1) the avanger", "2) Saw iv", "3) the simpson"};
+    static String[] movielist = {"1) The Avenger", "2) Saw iv", "3) The Simpson"};
     static int number;
     void selectDate()
     {
@@ -48,7 +48,7 @@ class user extends username_id {
     public void getName() {
         System.out.println("Please input your name ");
         name = input.nextLine();
-        System.out.println("hello" + name);
+        System.out.println(" Hello " + name);
         getMovie();
 
     }
